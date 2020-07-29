@@ -1,0 +1,25 @@
+th {
+    padding: 7px;
+    font-size: 40px;
+    background: rgb(29, 160, 62);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.assist {
+    color: #ffffff77;
+}
+
+div {
+    margin: 10px;;
+}
+
+#stat {
+    font-size: 24px;
+}
+
+#message {
+    color: rgb(255, 52, 52);
+    font-size: 24px;
+}
