@@ -57,6 +57,9 @@ Array.prototype.search = function (stone, width, height) {
 
 Array.prototype.get_assist = function (stone, width, height) {
 	const result = this.search(stone, width, height);
+	[...document.querySelectorAll('.assist')].forEach(th => {
+		th.classList.remove('assist');
+	})
 
 	result.forEach(pos => {
 		const cell = [...document.querySelectorAll('th')].filter(th => {
